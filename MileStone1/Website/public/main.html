@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Voice Prescription</title>
+</head>
+<body> 
+    <a href="javascript:genPDF()">Download PDF</a>
+    <div class="TextArea">
+        <button id="startButton"><i class="fa fa-microphone"></i></button>
+        <button id="stopButton" disabled ><i class="fa fa-microphone-slash"></i> </button>
+        
+        <form method="post" action="http://localhost:3000/">
+            <input type="file" id="imageJ" name="imageUp" >
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <div class="words">
+        <span id="final"></span>
+        <span id="interim"></span>
+    </div>
+    <script src="../routes/index.js" type="module"></script>
+</body>
+</html>
+
+ 

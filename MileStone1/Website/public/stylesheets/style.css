@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+button{
+  border-radius: 100%;
+  background-color: tomato;
+  border: none;
+  margin: 20px;
+
+}
+
+.fa{
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.words{
+  height: 350px;
+  width: 100%;
+  top: 50px;
+  border-radius: 35px;
+  left: 60px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
