@@ -1,0 +1,64 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+button{
+  border-radius: 100%;
+  background-color: tomato;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
+
+.modal-body p{
+  font-size: 16px;
+  
+}
+
+#pdfgen{
+  margin-left: 70px;
+  border: 1px solid rgb(149,205,220);
+  padding: 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+#pdfgen:hover{
+  background-color: rgb(149,205,220);
+  color: white;
+}
+
+.navbar{
+  background-color: rgb(149,205,220);
+}
+
+.list{
+  padding-right: 50px;
+}
+.nav-item{
+  padding-right: 50px;
+}
+
+
+.fa{
+  color: white;
+  font-size: 30px;
+}
+
+.words{
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row{
+  width: 100%;
+}
+
+.gifImg{
+  width: 600px;
+}
