@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_pat"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="New Prescription" />
+
+        <item
+            android:id="@+id/nav_pat_history"
+            android:icon="@drawable/ic_watch_later_black_24dp"
+            android:title="Patient's History" />
+
+        <item
+            android:id="@+id/navdeshow"
+            android:icon="@drawable/ic_gesture_black_24dp"
+            android:title="Prescription Template" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact us" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="@string/menu_share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="@string/menu_send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
